@@ -19,13 +19,13 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build docker image
-      run: docker build -t ghcr.io/hei-synd-225-sem/sdi-tdd-lab:latest .
+      run: docker build -t ghcr.io/${{ github.repository_owner }}/ese-tdd-lab:latest .
 
     - name: Push docker image
-      run: docker push ghcr.io/hei-synd-225-sem/sdi-tdd-lab:latest
+      run: docker push ghcr.io/${{ github.repository_owner }}/ese-tdd-lab:latest
 
     - name: Create artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: docker-image
         path: .

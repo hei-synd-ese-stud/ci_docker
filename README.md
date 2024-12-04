@@ -1,9 +1,9 @@
-# SEm-225 I5 CI/TDD Docker image
+# ESE CI/TDD Docker image
 
-[![Build docker image](https://github.com/hei-synd-225-sem/ci_docker/actions/workflows/build_image.yml/badge.svg)](https://github.com/hei-synd-225-sem/ci_docker/actions/workflows/build_image.yml)
+[![Build docker image](https://github.com/hei-synd-ese-stud/ci_docker/actions/workflows/build_image.yml/badge.svg)](https://github.com/hei-synd-ese-stud/ci_docker/actions/workflows/build_image.yml)
 
 ## Abstract
-This repository holds the docker file for the "CI/TDD" lab of the S.Em. 225 module at HES-SO Valais-Wallis in Sion. The built image can be found in the hei-synd-225-sem organization's sdi-tdd-lab GitHub Container registry. 
+This repository holds the docker file for the "CI/TDD" lab of the ESE module at HES-SO Valais-Wallis in Sion. The built image can be found in the hei-synd-ese-stud organization's ese-tdd-lab GitHub Container registry. 
 
 ## Build new image
 When a new release is made, a git actions automatically builds and pushes the new version of the image.
